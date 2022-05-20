@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#main {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+    /* color: white; */
+    font-size: 4.5rem;
+}
+#display {
+    height: 40%;
+    width: 100%;
+    background-color: #01FFB3;
+}
+.title {
+    background-color: #291720;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.value {
+    height: 50%;
+    width: 100%;
+    /* padding-top: 20px;
+    padding-right: 50px; */
+    padding: 8px;  
+    text-align: right;
+    background-color:#D90368;
+    color: black
+}
+.value_box {
+    height: 100%;
+    width:100%;
+    background-color: #01FFB3;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+    border: 5px solid #D90368;
+}
+.btn1 {
+    height: 100%;
+    width: 60%;
+}
+.btn1_1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.btn-press {
+    text-align: center;
+    width: 25%;
+    height:33%;
+    border: 2px solid white;
+    background-color: #820263;
+    color: #fff;
+    padding: 24px;
+}
+.btn2 {
+    height: 100%;
+    width: 40%;
+}
+.btn2_2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.btn-press1 {
+    text-align: center;
+    width: 50%;
+    height:33%;
+    border: 2px solid white;
+    background-color: #820263;
+    color: #fff;
+    padding: 20px;
+}
+.btn-press:hover {
+    color: yellow;
+    background-color: blue;
+}
