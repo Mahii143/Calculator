@@ -64,7 +64,7 @@ for(let i=0;i<btn_press.length;i++)
         }
         if(btn_press[i].innerText=='C') {
             // console.log('C '+flag2);
-            if(value_box.innerText.length>1 && value_box.innerText!="Can't divide by Zero") {
+            if(value_box.innerText.length>1 && value_box.innerText!="Can't divide by Zero" && value_box.innerText!="Infinity") {
                 value_box.innerHTML = value_box.innerText.slice(0, -1);;
             }
             else{
